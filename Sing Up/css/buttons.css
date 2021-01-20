@@ -1,0 +1,16 @@
+.forma > .form-actions > .btn {
+    display: inline-block;
+    background-color:#164ED9;
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px 45px;
+    
+}
+.forma > .form-actions > .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgb(101, 14, 145);
+}

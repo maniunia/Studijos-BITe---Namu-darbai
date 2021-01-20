@@ -1,0 +1,124 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-break: break-all;
+}
+
+body {
+    background-image: url(../image/ledai_main.jpg);
+    text-transform: uppercase;
+}
+    main {
+        background-image: url(../image/main\ \(cut\).jpg);
+        width: 100%;
+        max-width: 1000px;
+        height: 80vh;
+        margin: 0 auto;
+        border-radius: 15px;
+        box-shadow: 20px 20px 60px #534EDB;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+        header {
+            display: inline-block;
+            width: 100%;
+            height: 80px;
+            
+        }
+            nav {
+                display: inline-block;
+                width: 100%;
+                height: 50px;
+                /* margin-top: 30px;
+                margin-right: 40px; */
+                position: absolute;
+                top: 30px;
+                bottom: 30px;
+                font-size: 13px;
+                line-height: 15px;
+                text-align: right;
+                
+              
+            }
+                a {
+                    display: inline-block;
+                    margin-right: 50px;
+                    color: white;
+                    text-decoration: none;
+                   
+                    
+                }
+
+                a:hover {
+                    text-decoration-line: underline;
+                }
+                .menu {
+                    float: left;
+                    margin-left: 50px;
+                    
+                }
+                .menu .fa {
+                    margin-top: 2px;
+                }
+
+        .tevas {
+            display: inline-block;
+            width: 100%;
+
+        }
+            .vaikas {
+                display: inline-block;
+                width: 50%;
+                float: left;
+                color:white;
+
+            }
+                h1 {
+                    display: inline-block;
+                    width: 100%;
+                    font-size: 40px;
+                    padding-left: 10%;
+                    margin-top: 60px;
+                    
+                   
+                }
+                p {
+                    display: inline-block;
+                    width: 100%;
+                    font-size: 15px;
+                    padding-left: 10%;
+                    margin-top: 10px;
+                   
+                    
+                }
+                .btn {
+                    display: inline-block;
+                    width: 60px;
+                    height: 60px;
+                    margin-top: 20px;
+                    margin-left: 55px;
+                    background-color: white;
+                    border-radius: 50%;
+                    color: #7872fa;
+                
+                }
+                .btn:hover  {
+                    background-color: #7872fa;
+                    color: white;
+        
+                }     
+                
+                img {
+                    display: inline-block;
+                    width: 50%;
+                    margin-left: 120px;
+                    margin-top: 50px;
+
+                }

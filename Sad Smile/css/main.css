@@ -1,0 +1,113 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-break: break-all;
+}
+
+.background {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #88C067 50%, white 50%);
+}
+
+    main {
+        background-color:white;
+        display: inline-block;
+        width: 700px;
+        height: 300px;
+        /* margin-top: 150px;
+        margin-left: 25%; */
+        border-radius: 5px;
+        box-shadow: 10px 20px 50px #303030;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);   
+    }
+        header {
+            display: inline-block;
+            width: 100%;
+            height: 60px;
+           
+        }
+            .logo {
+                display: inline-block;
+                float: left;
+                width: 30px;
+                height: 30px;
+                margin-top: 15px;
+                margin-left: 30px;
+                
+            }
+            nav {
+                display: inline-block;
+                margin-top: 20px;
+                float: right;
+            }
+                a {
+                    display: inline-block;
+                    margin-right: 30px;
+                    text-decoration: none;
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: #9E9E9E;
+
+                }
+                a:hover {
+                    text-decoration-line: underline;
+                }
+                .btn {
+                    border: 3px solid #9E9E9E;
+                    margin-top: -3px;
+                    border-radius: 20px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                .btn:hover {
+                    text-decoration: none;
+                    background-color: #9E9E9E;
+                    color: white;
+                }
+
+        .content {
+            display: inline-block;
+            width: 100%;
+            margin-top: 20px;
+            
+        }
+            .half {
+                display: inline-block;
+                width: 50%;
+                float: left;
+                color: #9E9E9E;
+
+            }
+                h1 {
+                    display: inline-block;
+                    width: 100%;
+                    font-size: 60px;
+                    margin-top: 30px;
+                    padding-left: 10%;
+            
+                }
+                p {
+                    display: inline-block;
+                    width: 100%;
+                    font-size: 18px;
+                    margin-top: 5px;
+                    padding-left: 10%;
+                    
+                }
+
+                .main-image {
+                    display: inline-block;
+                    width: 70%;
+                    margin-left: 15%;
+                
+                }
+
